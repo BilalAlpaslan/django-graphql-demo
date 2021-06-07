@@ -92,7 +92,6 @@ INSTALLED_APPS: List[str] = [
     'graphene_django',
     "channels",
 ]
-GRAPHENE = {"SCHEMA": "example.schema.schema"}
 ALLOWED_HOSTS = "*"
 STATIC_URL = "/static/"
 STATICFILES_FINDERS = ["django.contrib.staticfiles.finders.AppDirectoriesFinder"]
